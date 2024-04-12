@@ -6,7 +6,7 @@ const NoteCard = (props) => {
   const { note } = props;
 
   return (
-    <li className="note-card">
+    <li className="note-card" style={{ backgroundColor: note.bgColor }}>
       <h2>{note.title}</h2>
       <div dangerouslySetInnerHTML={{ __html: note.description }} />
       {note.mediaLink && <NoteMedia note={note} key={note.id} />}

@@ -9,6 +9,7 @@ const NoteForm = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [mediaLink, setMediaLink] = useState("");
+  const [color, setColor] = useState("");
 
   const navigate = useNavigate();
 
@@ -19,6 +20,7 @@ const NoteForm = () => {
       title,
       description,
       mediaLink,
+      bgColor: color,
     };
     saveNoteToLocal(newNote);
     navigate("/");
@@ -54,6 +56,14 @@ const NoteForm = () => {
           value={mediaLink}
           onChange={(e) => setMediaLink(e.target.value)}
           className="note-form-input"
+        />
+        <input
+          type="color"
+          value={color}
+          onChange={(e) => {
+            console.log("setColor", e, e.target.value);
+            setColor(e.target.value);
+          }}
         />
         <button type="submit" className="note-form-submit-btn">
           Save
