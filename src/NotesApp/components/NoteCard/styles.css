@@ -1,0 +1,32 @@
+.note-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.note-card h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.note-card p {
+  margin-bottom: 10px;
+}
+
+.media-container {
+  margin-bottom: 10px;
+}
+
+.media-container img {
+  max-width: 100%;
+}
+
+.view-note-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-note-link:hover {
+  text-decoration: underline;
+  margin-top: 4px;
+}

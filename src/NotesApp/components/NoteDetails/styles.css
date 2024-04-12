@@ -1,0 +1,25 @@
+.note-detail-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.note-detail-container h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.media-container {
+  margin-bottom: 10px;
+}
+
+.media-container img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .note-detail-container {
+    padding: 10px;
+  }
+}

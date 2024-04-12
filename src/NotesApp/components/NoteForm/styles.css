@@ -1,0 +1,38 @@
+.note-form-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.note-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.note-form label {
+  margin-bottom: 5px;
+}
+
+.note-form-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.note-form-submit-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .note-form-input {
+    font-size: 14px;
+  }
+}

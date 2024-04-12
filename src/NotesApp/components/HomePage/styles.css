@@ -1,0 +1,33 @@
+.homepage-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.homepage-header{
+  display: flex; 
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.search-input{
+  padding: 4px;
+  width: 180px;
+  height: 25px;
+  align-self: center;
+}
+
+.add-note-link {
+  display: block;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.notes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  list-style-type: none;
+}
