@@ -2,6 +2,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
+  /* width: 50%; */
 }
 
 .note-card h2 {
@@ -11,14 +12,6 @@
 
 .note-card p {
   margin-bottom: 10px;
-}
-
-.media-container {
-  margin-bottom: 10px;
-}
-
-.media-container img {
-  max-width: 100%;
 }
 
 .view-note-link {

@@ -23,6 +23,14 @@
   background-color: #0056b3;
 }
 
+.notes-form-btn{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  align-self: center;
+}
+
 @media screen and (max-width: 768px) {
   .floating-button-container {
     bottom: 10px;
